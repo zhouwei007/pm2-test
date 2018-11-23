@@ -8,7 +8,7 @@
     "prd": "pm2 start ecosystem.config.js ",
     "test": "echo \"Error: no test specified\" && exit 1",
     "setup":"pm2 deploy production setup",
-    "update":" pm2 deploy ecosystem.config.js "
+    "update":" pm2 deploy ecosystem.config.js production"
   },
   "dependencies": {
     "debug": "^2.6.3",
