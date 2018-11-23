@@ -29,7 +29,7 @@ module.exports = {
       port:22,
       ref: 'origin/master',
       repo: 'git@github.com:zhouwei007/pm2-test.git',
-      path: '/www/koa2Test',
+      path: '/www/koa2Test11',
       ssh_options: "StrictHostKeyChecking=no",// sshkey校验取消
       env:{
         "NODE_ENV":'production'
