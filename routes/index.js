@@ -3,7 +3,7 @@ const router = require('koa-router')()
 router.get('/', async (ctx, next) => {
   console.log(2222)
   await ctx.render('index', {
-    title: '卧槽周周牛B啊'
+    title: '成功了'
   })
 })
 
