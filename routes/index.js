@@ -21,6 +21,10 @@ router.get('/koa', async (ctx, next) => {
     title: 'ddn'
   }
 })
-
+router.get('/koa/heheda', async (ctx, next) => {
+  ctx.body = {
+    title: 'heheda'
+  }
+})
 
 module.exports = router
