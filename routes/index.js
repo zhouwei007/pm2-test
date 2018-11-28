@@ -17,7 +17,10 @@ router.get('/json', async (ctx, next) => {
   }
 })
 router.get('/koa', async (ctx, next) => {
-
+  ctx.body = {
+    title: 'ddn'
+  }
 })
+
 
 module.exports = router
